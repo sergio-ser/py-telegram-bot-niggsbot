@@ -1,7 +1,7 @@
 # py-telegram-bot-niggsbot
 @niggsbot Test about how black are you black in Russian language.
 # How to run bot?
-Go to telegrambot @BotFather create your bot and get the TOKEN
+Go to telegrambot @BotFather create your bot and get the TOKEN.
 You need to run this file in background on server with python 3.6 and more.
 # Modules you need to run
 You will nedd module pyTelegramBotAPI, python 3.6 and more, pip3
