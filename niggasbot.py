@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot("823511562:AAHGKdueThEknDq_g9Bq25VVtTt2EVikeKI")
+bot = telebot.TeleBot("TOKEN")
 user_dict = {}
 
 global totalAnswer
@@ -13,8 +13,6 @@ questnr = 1
 class User:
     def __init__(self, name):
         self.name = name
-        self.points = None
-        # self.sex = None
 
 
 @bot.message_handler(commands=['start'])
@@ -71,8 +69,7 @@ def handle_query(call):
     answer = call.data.split(spl, 1)[1]
     totalAnswer += int(answer)
     questnr = questnr + 1
-    #print('Points = ' + str(totalAnswer))
-    #print('\nquestion = ' + str(questnr))
+
 
     try:
         #question 1
